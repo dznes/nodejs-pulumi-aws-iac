@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-pulumini-aws-iac",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup-node",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "10.0.1",
+    "@pulumi/docker-build": "0.0.7",
+    "@pulumi/pulumi": "^3.183.0",
+    "fastify": "5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.1",
+    "tsup": "8.3.5",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  }
+}

@@ -1,0 +1,10 @@
+name: dznes-first
+description: Dznes first NodeJS server with DevOps using Pulumini and AWS
+runtime:
+  name: nodejs
+  options:
+    packagemanager: pnpm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
