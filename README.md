@@ -3,6 +3,9 @@
 This repository contains the steps needed to set up a deployment environment on AWS using AWS CLI, Pulumi, and Docker.
 This is a DevOps base project using IaC (Infrastructure as Code), using Typescript in this case.
 Configuring your AWS and Pulumi credentials, you are able to manage and control the project insfrastructure with your prefered code.
+Load balancer or API Gateway?
+Use API Gateway for serverless APIs with features like throttling, auth, and usage plans. 
+Use Load Balancer for high-throughput web apps on EC2/ECS.
 
 ---
 
